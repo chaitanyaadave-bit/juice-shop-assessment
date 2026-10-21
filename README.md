@@ -23,9 +23,6 @@ The application was run locally, and HTTP requests and responses were captured a
 - OWASP Juice Shop
 - Burp Suite Community Edition
 - Node.js
-- Web browser
-- GitHub Classroom
-- Markdown for documentation
 
 ## Testing Methodology
 
@@ -55,13 +52,6 @@ The application was run locally, and HTTP requests and responses were captured a
 
 These observations are documented in the findings and test-results files. The impact and severity of potential weaknesses must be evaluated using the actual application behavior and supporting evidence.
 
-## Repository Contents
-
-- `docs/` — Project report
-- `findings/` — Security findings and recommendations
-- `test-cases/` — Test cases and results
-- `screenshots/` — Evidence collected during testing
-- `team-contributions.md` — Team responsibilities
 
 ## Conclusion
 
@@ -70,3 +60,9 @@ This assessment provided practical experience in web application functionality t
 ## Disclaimer
 
 This assessment was conducted on a locally hosted OWASP Juice Shop instance for educational purposes. Testing was limited to the authorized lab environment.
+
+## Final Project Report
+
+The complete project report contains the methodology, functionality testing, security findings, Burp Suite screenshots, observations, and recommendations.
+
+**[View Final Report (PDF)](OWASP_Juice_Shop_Final_Report.pdf)**
