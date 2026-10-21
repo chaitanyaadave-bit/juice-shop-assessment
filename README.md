@@ -24,6 +24,38 @@ The application was run locally, and HTTP requests and responses were captured a
 - Burp Suite Community Edition
 - Node.js
 
+## Software and Setup
+
+### Tools Used
+
+- **OWASP Juice Shop:** Intentionally vulnerable web application used for security testing.
+- **Node.js:** JavaScript runtime used to run the application.
+- **Burp Suite Community Edition:** Used to intercept and inspect HTTP requests and responses.
+- **Web Browser:** Used to interact with the application.
+
+### Official Downloads and Documentation
+
+- Juice Shop GitHub repository: https://github.com/juice-shop/juice-shop/releases/tag/v20.3.0
+- Node.js - Windows 64-bit Installer: https://nodejs.org/dist/v24.22.1/node-v24.22.1-x64.msi
+- Burp Suite Community Edition: https://portswigger.net/burp/downloads
+
+### Basic Setup
+
+1. Install Node.js from the official website.
+2. Obtain OWASP Juice Shop using the official project instructions.
+3. Start Juice Shop locally and open it in a web browser.
+4. Launch Burp Suite Community Edition.
+5. Configure the browser to use Burp Suite's proxy, or use Burp's built-in browser.
+6. Capture and inspect application requests.
+7. Perform the documented tests in the authorized local environment.
+
+### Test Environment
+
+- Application: OWASP Juice Shop
+- Hosting: Local machine
+- Security testing tool: Burp Suite Community Edition
+- Testing approach: HTTP request and response inspection
+
 ## Testing Methodology
 
 1. Run OWASP Juice Shop locally.
